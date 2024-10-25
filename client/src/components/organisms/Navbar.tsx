@@ -7,7 +7,7 @@ export default function Navbar() {
   const start = (
     <div className="">
       <img
-        className="w-[100px] h-[30px]"
+        className="h-[30px] w-[100px]"
         src={MobizLogo}
         alt="mobiz logo"
       ></img>
