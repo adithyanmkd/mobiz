@@ -7,7 +7,7 @@ export default function Navbar() {
   const start = (
     <div className="">
       <img
-        className="h-[30px] w-[100px]"
+        className="h-[60px] w-[200px]"
         src={MobizLogo}
         alt="mobiz logo"
       ></img>
@@ -220,10 +220,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="fixed z-30 mx-auto w-full bg-white shadow-md">
+    <div className="fixed z-30 mx-auto w-full rounded-full bg-white shadow-md">
       <Menubar
         id="menubarCustom"
-        className="mx-auto flex max-w-screen-xl justify-between bg-transparent"
+        className="mx-auto max-w-screen-xl justify-between bg-transparent"
         model={items}
         start={start}
       />

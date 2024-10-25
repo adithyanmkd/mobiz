@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 #contactBtn .p-menuitem-content {
-  @apply bg-primary mx-auto flex max-w-xs justify-center text-white transition-colors hover:bg-red-700 md:ml-4;
+  @apply bg-primary mx-auto flex max-w-xs justify-center text-white transition-colors hover:bg-red-700;
 }
 
 #contactBtn .p-menuitem-content .p-menuitem-link .p-menuitem-text {
   @apply text-white;
+}
+
+#menubarCustom {
+  @apply px-3 py-0;
 }
