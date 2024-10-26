@@ -1,8 +1,8 @@
+import WelcomeImage from "../../assets/images/home/welcome-section-image.svg";
+import WhatWeImage from "../../assets/images/home/whatWe-section-image.svg";
+
 import Article from "../organisms/Article";
 import HeroSection from "../organisms/HeroSection";
-
-import WelcomeImage from "../../assets/images/welcome-section-image.svg";
-import WhatWeImage from "../../assets/images/whatWe-section-image.svg";
 import WhyAs from "../organisms/WhyAs";
 
 const welcomeData = {
