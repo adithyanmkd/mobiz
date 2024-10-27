@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Layout from "./components/templates/Layout";
 import About from "./components/pages/About";
+import WhyChoose from "./components/pages/WhyChoose";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route index path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/why-choose" element={<WhyChoose />} />
           </Route>
         </Routes>
       </Router>
