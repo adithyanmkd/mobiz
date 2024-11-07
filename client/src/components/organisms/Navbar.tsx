@@ -30,6 +30,7 @@ export default function Navbar() {
         {
           label: "About Us",
           icon: "pi pi-bolt",
+          url: "/about",
           className: "font-normal border-b md:border-none",
         },
         {
@@ -40,6 +41,7 @@ export default function Navbar() {
         {
           label: "Why Choose Us?",
           icon: "pi pi-bolt",
+          url: "/why-choose",
           className: "font-normal border-b md:border-none",
         },
         {
@@ -203,17 +205,19 @@ export default function Navbar() {
     {
       label: "Our Team",
       icon: "pi pi-envelope",
+      url: "/our-team",
       className: "font-medium border-b md:border-none",
     },
     {
       label: "Career",
       icon: "pi pi-envelope",
+      url: "/career",
       className: "font-medium border-b md:border-none",
     },
     {
       id: "contactBtn",
       label: "Contact Us ",
-      url: "contact",
+      url: "/contact",
       icon: "pi pi-envelope",
       className: "py-4 md:py-0",
     },

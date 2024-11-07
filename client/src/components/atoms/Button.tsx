@@ -1,14 +1,15 @@
 type PropsType = {
   classname?: string;
+  label: string;
 };
 
-const Button = ({ classname = "" }: PropsType) => {
+const Button = ({ label, classname = "" }: PropsType) => {
   return (
     <div>
       <button
-        className={`rounded-full bg-[#C42D27] px-8 py-3 text-sm font-bold text-white hover:bg-[#9b201c] ${classname}`}
+        className={`mb-3 mt-3 rounded-full bg-[#C42D27] px-8 py-3 text-sm font-bold text-white hover:bg-[#9b201c] ${classname}`}
       >
-        Join Our Team
+        {label}
       </button>
     </div>
   );

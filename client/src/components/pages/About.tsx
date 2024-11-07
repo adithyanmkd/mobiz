@@ -5,7 +5,9 @@ const About = () => {
   return (
     <div className="bg-[#F5F5F5]">
       <AboutIntro />
-      <TeamWork />
+      <div className="mt-8">
+        <TeamWork />
+      </div>
     </div>
   );
 };
