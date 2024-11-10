@@ -10,6 +10,7 @@ import About from "./components/pages/About";
 import WhyChoose from "./components/pages/WhyChoose";
 import ErrorPage from "./components/pages/ErrorPage";
 import OurTeam from "./components/pages/OurTeam";
+import Career from "./components/pages/Career";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/why-choose" element={<WhyChoose />} />
             <Route path="/our-team" element={<OurTeam />} />
+            <Route path="/career" element={<Career />} />
             <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
