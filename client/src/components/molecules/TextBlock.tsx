@@ -12,7 +12,7 @@ const TextBlock = ({
   classname = "",
 }: TextBlockProps) => {
   return (
-    <div className="pt-[30px]">
+    <div className={`pt-[30px] lg:bg-white`}>
       <div
         className={`mx-auto max-w-xl md:text-center lg:text-left ${classname}`}
       >

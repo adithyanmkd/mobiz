@@ -4,7 +4,7 @@ import JobSection from "../organisms/JobSection";
 
 const Career = () => {
   return (
-    <div className="bg-red-500">
+    <div className="mb-4 bg-[#F5F5F5]">
       <CareerHeader />
       <BenefitSection />
       <JobSection />

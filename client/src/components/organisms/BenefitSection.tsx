@@ -55,12 +55,14 @@ const BenefitCardPropsContent = [
 
 const BenefitSection = () => {
   return (
-    <div className="px-5 lg:flex lg:bg-purple-400">
-      <TextBlock {...TextBlockContent} />
-      <div className="mx-auto mt-5 max-w-xl space-y-3 md:grid md:max-w-[660px] md:grid-cols-2 md:place-items-center md:gap-6 md:space-y-0">
-        {BenefitCardPropsContent.map((data, index) => (
-          <BenefitsCard key={index} {...data} />
-        ))}
+    <div className="bg-[#F5F5F5] px-5 pb-5">
+      <div className="mx-auto max-w-screen-lg lg:flex">
+        <TextBlock {...TextBlockContent} />
+        <div className="mx-auto mt-[30px] max-w-xl space-y-3 md:grid md:max-w-[660px] md:grid-cols-2 md:place-items-center md:gap-6 md:space-y-0">
+          {BenefitCardPropsContent.map((data, index) => (
+            <BenefitsCard key={index} {...data} />
+          ))}
+        </div>
       </div>
     </div>
   );
